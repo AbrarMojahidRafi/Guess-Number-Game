@@ -5,3 +5,8 @@
 * Another thing, the guess we write while playing this whole game will tell more or less than the guess of the computer. If our guessed number is less than the random number set by the computer, it will show low; otherwise, it will show high.
 * And we will have a high score record while playing the game. 
 * Also if we want we can start the game again by clicking again button.
+
+## Built With
+- JavaScript
+- HTML
+- CSS
