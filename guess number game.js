@@ -62,6 +62,6 @@ document.querySelector(".again-button").addEventListener("click", function () {
   randomGuessNumber = Math.trunc(Math.random() * 20 + 1);
   document.querySelector(".message").textContent = "Start guessing...";
   document.querySelector(".score").textContent = 20;
-  document.querySelector(".number").textContent = randomGuessNumber;
+  document.querySelector(".number").textContent = "?";
   document.querySelector(".guess").value = "";
 });
