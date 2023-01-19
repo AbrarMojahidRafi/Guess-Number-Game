@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+#body-tag {
+  background-color: rgb(223, 240, 205);
+}
+
+.welcome-message {
+  text-align: center;
+  font-family: "Rowdies", cursive;
+}
+
+#guess-my-number {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+
+.again-button {
+  margin: 10px;
+  width: 40%;
+}
+
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guess {
+  background: none;
+  border: 4px solid rgb(202, 56, 56);
+  font-family: inherit;
+  color: inherit;
+  font-size: 2.5rem;
+  padding: 1.5rem;
+  width: 37rem;
+  text-align: center;
+}
+
+.check-button {
+  margin: 1rem;
+  background-color: rgb(0, 255, 0);
+}
+
+.btn {
+  border: 5px solid rgb(0, 183, 255);
+  background-color: rgb(0, 255, 85);
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  width: 25%;
+}
+
+.btn:hover {
+  background-color: rgb(127, 223, 155);
+}
+
+.right {
+  width: 52rem;
+  font-size: 2rem;
+  right: inherit;
+}
+
+.message {
+  margin-bottom: 5rem;
+  height: 3rem;
+}
+
+.label-score {
+  margin-bottom: 1rem;
+}
+
+main {
+  height: 65vh;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.number {
+  background: rgb(166, 221, 153);
+  color: #333;
+  font-size: 1.5rem;
+  width: 8rem;
+  padding: 1.5rem;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  left: 44%;
+  /* transform: translate(-50%, 50%); */
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="guess number game.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap"
+      rel="stylesheet"
+      <!--linkBoostrap--
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    />
+  </head>
+  <body id="body-tag">
+    <header>
+      <h1 class="welcome-message display-4">
+        Welcome to the Guess Number game!
+      </h1>
+      <h2 id="guess-my-number"><b>Guess My Number</b></h2>
+      <div class="number">?</div>
+    </header>
+
+    <main class="row">
+      <section class="left col-12 col-md-8">
+        <input
+          type="number"
+          class="guess"
+          placeholder="Enter number between 1-20"
+        />
+        <button class="btn btn-outline-success check-button">Check!</button>
+        <button type="button" class="btn btn-danger btn-lg again-button">
+          Again
+        </button>
+      </section>
+
+      <section class="right col-6 col-md-4">
+        <p class="message">Start guessing...</p>
+        <p class="label-score">🔴 Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          <b>🔥 Highest Score: <span class="highscore">0</span> </b>
+        </p>
+      </section>
+    </main>
+
+    <!-- js file added -->
+    <script src="guess number game.js"></script>
+  </body>
+</html>
